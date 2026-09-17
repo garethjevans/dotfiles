@@ -306,14 +306,10 @@ brew "zsh-syntax-highlighting"
 brew "plumming/tap/dx", trusted: true
 # Tanzu Community Edition
 brew "vmware-tanzu/tanzu/tanzu-community-edition"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Securely stores and accesses AWS credentials in a development environment
 cask "aws-vault-binary"
 # Open source, extensible AI agent that goes beyond code suggestions
 cask "block-goose"
-# Automated testing of webapps for Google Chrome
-cask "chromedriver"
 # Voice and text chat software
 cask "discord"
 cask "font-consolas-for-powerline"
@@ -331,8 +327,6 @@ cask "gcloud-cli"
 cask "gitee"
 # Desktop client for GitHub repositories
 cask "github"
-# Trigger haptic feedback when tapping Touch Bar
-cask "haptickey"
 # HTTP client that helps testing and describing APIs
 cask "rapidapi# AI Tools"
 # Free and open-source OpenVPN client
