@@ -18,13 +18,14 @@ tap "pivotal-cf/kiln", "https://github.com/pivotal-cf/kiln"
 tap "pivotal-cf/om", "https://github.com/pivotal-cf/om"
 tap "plumming/tap"
 tap "remind101/formulae"
-tap "spring-attic/spring-cli", "https://github.com/spring-attic/homebrew-spring-cli.git"
-tap "spring-io/tap"
 tap "tilt-dev/tap"
 tap "updatecli/updatecli"
 tap "vmware-tanzu/carvel", "https://github.com/carvel-dev/homebrew.git"
 tap "vmware-tanzu/tanzu"
 tap "vmware/pinniped", "https://github.com/vmware/homebrew-pinniped.git"
+tap "vmware/internal" "git@github.gwd.broadcom.net:TNZ/shepherd-homebrew-internal.git"
+tap "tnz/tap" "git@github.gwd.broadcom.net:TNZ/homebrew.git"
+
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Run your GitHub Actions locally
@@ -75,6 +76,10 @@ brew "openjdk"
 brew "bfg"
 # Cloud Foundry BOSH CLI v2
 brew "bosh-cli"
+brew "cf-cli@8"
+brew "credhub-cli"
+brew "kiln"
+brew "om"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -329,7 +334,7 @@ cask "github"
 # Trigger haptic feedback when tapping Touch Bar
 cask "haptickey"
 # HTTP client that helps testing and describing APIs
-cask "rapidapi"
+cask "rapidapi# AI Tools"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
 # Configurable document editor that supports Markdown
@@ -339,6 +344,10 @@ cask "visual-studio-code"
 # Network protocol analyzer
 cask "wireshark-app"
 
+# AI Tools
+cask 'cursor-cli'
+cask 'claude'
+
 krew "access-matrix"
 krew "blame"
 krew "kuttl"
@@ -347,3 +356,6 @@ krew "resource-capacity"
 krew "tree"
 
 npm "corepack"
+
+brew "vmware/internal/shepherd"
+brew "smith"
