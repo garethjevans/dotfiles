@@ -23,8 +23,8 @@ tap "updatecli/updatecli"
 tap "vmware-tanzu/carvel", "https://github.com/carvel-dev/homebrew.git"
 tap "vmware-tanzu/tanzu"
 tap "vmware/pinniped", "https://github.com/vmware/homebrew-pinniped.git"
-tap "vmware/internal" "git@github.gwd.broadcom.net:TNZ/shepherd-homebrew-internal.git"
-tap "tnz/tap" "git@github.gwd.broadcom.net:TNZ/homebrew.git"
+tap "vmware/internal", "git@github.gwd.broadcom.net:TNZ/shepherd-homebrew-internal.git"
+tap "tnz/tap", "git@github.gwd.broadcom.net:TNZ/homebrew.git"
 
 # Search tool like grep, but optimized for programmers
 brew "ack"
