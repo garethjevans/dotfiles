@@ -24,8 +24,6 @@ tap "tnz/tap", "git@github.gwd.broadcom.net:TNZ/homebrew.git"
 brew "ack"
 # Run your GitHub Actions locally
 brew "act"
-# Codec library for encoding and decoding AV1 video streams
-brew "aom"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Automatic configure script builder
@@ -209,7 +207,7 @@ brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
 # Development kit for the Java programming language
-brew "openjdk@17"
+brew "openjdk@25"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Pinentry for GPG on Mac
