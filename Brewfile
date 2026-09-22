@@ -3,7 +3,6 @@ tap "boz/repo"
 tap "buildpacks-community/kpack-cli", "https://github.com/buildpacks-community/homebrew-kpack-cli.git"
 tap "buildpacks/tap"
 tap "buo/cask-upgrade"
-tap "cloudfoundry-community/cf", "https://github.com/cloudfoundry-community/homebrew-cf.git"
 tap "cloudfoundry/tap"
 tap "garethjevans/tap"
 tap "kubeshop/tracetest"
@@ -71,7 +70,6 @@ brew "bosh-cli"
 brew "cf-cli@8"
 brew "credhub-cli"
 brew "kiln"
-brew "om"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -322,3 +320,6 @@ krew "tree"
 brew "vmware/internal/shepherd"
 brew "smith"
 brew "mr"
+
+tap "pivotal-cf/om", "https://github.com/pivotal-cf/om", trusted: true
+brew "om"
