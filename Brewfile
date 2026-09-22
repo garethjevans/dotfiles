@@ -90,8 +90,6 @@ brew "diffutils"
 brew "direnv"
 # Tool for exploring each layer in a docker image
 brew "dive"
-# Command-line DNS client
-brew "dog"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Monitor a directory for changes and run a shell command
@@ -204,22 +202,16 @@ brew "libvterm"
 brew "luv"
 # Mac App Store command-line interface
 brew "mas"
-# Fast, highly customisable system info script
-brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
-# Create, run, and share large language models (LLMs)
-brew "ollama"
 # Development kit for the Java programming language
 brew "openjdk@17"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Highly capable, feature-rich programming language
-brew "perl"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Theme for zsh
@@ -229,11 +221,9 @@ brew "pre-commit"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+brew "python@3.12"
+brew "python@3.13"
+brew "python@3.14"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Search tool like grep and The Silver Searcher
@@ -269,7 +259,7 @@ brew "unbound"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Secures, stores, and tightly controls access to secrets
-brew "vault"
+brew "vault-cli"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Executes a program periodically, showing output fullscreen
