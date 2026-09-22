@@ -254,8 +254,6 @@ brew "trivy"
 brew "unbound"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
-# Secures, stores, and tightly controls access to secrets
-brew "vault-cli"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Executes a program periodically, showing output fullscreen
@@ -323,3 +321,7 @@ brew "mr"
 
 tap "pivotal-cf/om", "https://github.com/pivotal-cf/om", trusted: true
 brew "om"
+
+tap "hashicorp/tap", trusted: true
+brew "hashicorp/tap/vault"
+
