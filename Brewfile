@@ -288,6 +288,8 @@ cask "aws-vault-binary"
 cask "block-goose"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
 cask "font-consolas-for-powerline"
 cask "font-fontawesome"
 cask "font-hack-nerd-font"
