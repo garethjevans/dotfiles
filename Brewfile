@@ -312,6 +312,7 @@ cask "wireshark-app"
 # AI Tools
 cask 'cursor-cli'
 cask 'claude'
+cask 'claude-code'
 
 krew "access-matrix"
 krew "blame"
