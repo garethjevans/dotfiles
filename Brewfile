@@ -298,8 +298,6 @@ brew "zsh-lovers"
 brew "zsh-syntax-highlighting"
 # Have you got the chillys?
 brew "plumming/tap/dx", trusted: true
-# Tanzu Community Edition
-brew "vmware-tanzu/tanzu/tanzu-community-edition"
 # Securely stores and accesses AWS credentials in a development environment
 cask "aws-vault-binary"
 # Open source, extensible AI agent that goes beyond code suggestions
@@ -307,7 +305,6 @@ cask "block-goose"
 # Voice and text chat software
 cask "discord"
 cask "font-consolas-for-powerline"
-cask "font-dashicons"
 cask "font-fontawesome"
 cask "font-hack-nerd-font"
 cask "font-material-icons"
@@ -315,18 +312,10 @@ cask "font-menlo-for-powerline"
 cask "font-meslo-for-powerline"
 cask "font-monoid-nerd-font"
 cask "font-simple-line-icons"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "gitee"
 # Desktop client for GitHub repositories
 cask "github"
-# HTTP client that helps testing and describing APIs
-cask "rapidapi# AI Tools"
-# Free and open-source OpenVPN client
-cask "tunnelblick"
 # Configurable document editor that supports Markdown
 cask "typora"
-# Open-source code editor
-cask "visual-studio-code"
 # Network protocol analyzer
 cask "wireshark-app"
 
