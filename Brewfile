@@ -300,6 +300,8 @@ cask "font-monoid-nerd-font"
 cask "font-simple-line-icons"
 # Desktop client for GitHub repositories
 cask "github"
+# Team communication and collaboration software
+cask "slack"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Network protocol analyzer
