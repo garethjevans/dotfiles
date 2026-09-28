@@ -311,6 +311,7 @@ cask "wireshark-app"
 cask 'cursor-cli'
 cask 'claude'
 cask 'claude-code'
+cask 'codex'
 
 krew "access-matrix"
 krew "blame"
