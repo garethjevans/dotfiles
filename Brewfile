@@ -330,3 +330,7 @@ brew "om"
 tap "hashicorp/tap", trusted: true
 brew "hashicorp/tap/vault"
 
+brew "nvm"
+brew "yarn"
+brew "maven"
+
