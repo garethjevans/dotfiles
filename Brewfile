@@ -290,6 +290,8 @@ cask "block-goose"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Customize and control Stream Deck devices
+cask "elgato-stream-deck"
 cask "font-consolas-for-powerline"
 cask "font-fontawesome"
 cask "font-hack-nerd-font"
