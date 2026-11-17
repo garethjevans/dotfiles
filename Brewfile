@@ -37,8 +37,6 @@ brew "awscli"
 brew "awslogs"
 # YAML Parser
 brew "libyaml"
-# Microsoft Azure CLI 2.0
-brew "azure-cli"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # GNU internationalization (i18n) and localization (l10n) library
@@ -242,8 +240,6 @@ brew "telnet"
 brew "tig"
 # Define your dev environment as code. For microservice apps on Kubernetes
 brew "tilt"
-# Simplified and community-driven man pages
-brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -304,8 +300,6 @@ cask "font-simple-line-icons"
 cask "github"
 # Team communication and collaboration software
 cask "slack"
-# Configurable document editor that supports Markdown
-cask "typora"
 # Network protocol analyzer
 cask "wireshark-app"
 
